@@ -1,0 +1,47 @@
+object About2_0: TAbout2_0
+  Left = 238
+  Top = 227
+  Width = 464
+  Height = 451
+  Caption = 'About2_0'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 80
+    Top = 8
+    Width = 289
+    Height = 33
+    AutoSize = False
+    Caption = 'lsanote version history'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object RichEdit1: TRichEdit
+    Left = 8
+    Top = 56
+    Width = 425
+    Height = 337
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clGreen
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    Lines.Strings = (
+      'v1.0: achieved some easy function '
+      'about notebook,such as ')
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+end
